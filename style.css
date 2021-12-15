@@ -160,7 +160,9 @@ main{
 
 /* CONTENT RIGHT */
 .datetime{
-    background-color: rgb(44, 58, 83);
+    background-image: url('img/meeting.jpeg');
+    background-size: cover;
+    padding: 20px;
     color: #fff;
     height: 30%;
     border: solid 1px grey;
@@ -171,10 +173,12 @@ main{
 .time{
     font-size: 35px;
     font-weight: bold;
+    text-shadow: 0px 0px 15px #000;
 }
 
 .date{
     font-size: 20px;
+    text-shadow: 0px 0px 15px #000;
 }
 
 .events{
