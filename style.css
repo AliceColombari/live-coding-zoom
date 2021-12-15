@@ -9,11 +9,13 @@ body{
 }
 
 header{
-    display: flex;
     height: 100px;
     width: 100%;
     background-color: #eee;
+   
+    display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .flex{
@@ -23,3 +25,24 @@ header{
 .flex-column{
     flex-direction: column;
 }
+
+/* NAV LEFT */
+.box{
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    flex-basis: 30px;
+    height: 30px;
+    margin: 0px 5px;
+    color: grey;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center{
+    align-items: center;
+    justify-content: center;
+}
+
+/* FINE NAV LEFT */
