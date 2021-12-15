@@ -85,6 +85,7 @@ p{
 }
 /* FINE NAV MAIN */
 
+/* NAV RIGHT */
 .account{
     background-color: #53ae98;
     padding: 10px;
@@ -99,13 +100,16 @@ p{
     justify-content: center;
     align-items: center;
 }
+/* FINE NAV RIGHT */
 
+/* MAIN */
 main{
     width: 100%;
     height: calc(100vh - 100px);
     position: relative;
 }
 
+/* SETTINGS */
 .settings{
     position: absolute;
     top: 20px;
@@ -115,3 +119,73 @@ main{
 .fas.fa-cog{
     color: grey;
 }
+/* FINE SETTINGS */
+
+/* CONTENT LEFT */
+.content-left{
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 50%;
+}
+
+.content-left, .content-right{
+    height: 300px;
+}
+
+.item-btn{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: rgb(0, 140, 255);
+    color: #fff;
+    font-size: 50px;
+}
+
+.item-btn.btn-orange{
+    background-color: rgb(255, 145, 0);
+}
+
+.item{
+    align-items: center;
+    justify-content: center;
+}
+
+.content-left p {
+    margin-top: 15px;
+}
+/* FINE CONTENT LEFT */
+
+/* CONTENT RIGHT */
+.datetime{
+    background-color: rgb(44, 58, 83);
+    color: #fff;
+    height: 30%;
+    border: solid 1px grey;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.time{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.date{
+    font-size: 20px;
+}
+
+.events{
+    height: 70%;
+    border: solid 1px grey;
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.content-right{
+    width: 30%;
+    margin-left: 100px;
+}
+/* FINE CONTENT RIGHT */
