@@ -31,7 +31,7 @@ header{
     background-color: #ddd;
     padding: 5px;
     border-radius: 5px;
-    flex-basis: 30px;
+    width: 30px;
     height: 30px;
     margin: 0px 5px;
     color: grey;
@@ -45,4 +45,24 @@ header{
     justify-content: center;
 }
 
+.search-box{
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px;
+    color: grey;
+    margin: 0px 5px;
+}
+
+.input-search{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.search-box i{
+    position: relative;
+    top: 2px;
+}
 /* FINE NAV LEFT */
