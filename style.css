@@ -4,14 +4,22 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 header{
     display: flex;
     height: 100px;
     width: 100%;
     background-color: #eee;
+    align-items: center;
 }
 
 .flex{
     display: flex;
 }
 
+.flex-column{
+    flex-direction: column;
+}

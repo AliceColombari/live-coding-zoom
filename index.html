@@ -10,29 +10,57 @@
 </head>
 <body>
     
-    <header>
+    <header class="flex">
+
+        <!-- NAV LEFT -->
         <div class="flex nav-left">
             <div class="box">
                 <i class="fas fa-chevron-left"></i>
             </div>
 
             <div class="box">
-                <i class="fas fa-chevron-left"></i>
+                <i class="fas fa-chevron-right"></i>
             </div>
 
             <div class="box">
                 <i class="fas fa-search"></i>
-                <input type="text">
+                <input type="text" class="search" placeholder="Cerca">
             </div>
         </div>
+        <!-- FINE NAV LEFT -->
 
+        <!-- NAV MAIN -->
         <div class="flex nav-main">
-            
-        </div>
+            <div class="flex flex-column link">
+                <i class="fas fa-home"></i>
+                <p>Home</p>
+            </div>
 
-        <div class="flex nav-right">
-            
+            <div class="flex flex-column link">
+                <i class="far fa-comment"></i>
+                <p>Chattare</p>
+            </div>
+
+            <div class="flex flex-column link">
+                <i class="far fa-clock"></i>
+                <p>Riunioni</p>
+            </div>
+
+            <div class="flex flex-column link">
+                <i class="far fa-address-book"></i>
+                <p>Contatti</p>
+            </div>
         </div>
+        <!-- FINE NAV MAIN -->
+
+        <!-- NAV RIGHT -->
+        <div class="flex nav-right">
+            <div class="account">
+                <i class="far fa-user-circle"></i>
+            </div>
+        </div>
+        <!-- FINE NAV RIGHT -->
+
     </header>
 
 
